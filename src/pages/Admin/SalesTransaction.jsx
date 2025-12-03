@@ -547,8 +547,9 @@ export default function SalesTransactionPage() {
 
       {/* Footer */}
       <footer className="bg-[#6b4f4f] text-white text-center py-4 mt-8">
-        <p>&copy; 2025BookHive Admin. All rights reserved.</p>
+        <p>&copy; 2025 BookHive Admin. All rights reserved.</p>
       </footer>
     </div>
   );
 }
+
