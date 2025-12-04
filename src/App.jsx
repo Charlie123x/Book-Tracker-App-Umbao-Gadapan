@@ -4,6 +4,8 @@ import UserInformation from './pages/UserInformation';
 import Dashboard from './pages/Dashboard';
 import Transactions from './pages/Transactions';
 import PersonalLibrary from './pages/PersonalLibrary';
+import BorrowBookRequest from './pages/Borrower/BorrowRequest';
+import PenaltyTracking from './pages/Borrower/PenaltyTracker';
 // Admin pages
 import AdminDashboard from './pages/Admin/AdminDashboard';
 import LendingPage from './pages/Admin/LendingPage';
@@ -21,6 +23,8 @@ function App() {
         <Route path="/transaction" element={<Transactions />} />
         <Route path="/userinformation" element={<UserInformation />} />
         <Route path="/library" element={<PersonalLibrary />} />
+        <Route path="/borrowrequest" element={<BorrowBookRequest />} />
+        <Route path="/penalty" element={<PenaltyTracking />} />
         {/* Admin routes */}
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/admin/lending" element={<LendingPage />} />
